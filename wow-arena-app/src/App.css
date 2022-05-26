@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #94babb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,141 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-wrapper {
+  background-color: #cdd9d9;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-wrapper h1 {
+  width: 60%;
+  text-align: left;
+  margin-left: 1%;
+}
+
+.nav-wrapper p {
+  width: 50%;
+  text-align: left;
+  margin-left: 1%;
+}
+
+.class-page {
+  background-color: bisque;
+  width: 100vw;
+  height: 70vh;
+}
+
+.info-page {
+  background-color: bisque;
+  width: 100vw;
+  height: 70vh;
+}
+
+.info-page h2 {
+  margin: 0;
+  padding: 1%;
+}
+
+.info-block {
+  background-color: rgba(226, 238, 237, 0.733);
+  height: 60vh;
+  display: flex;
+}
+
+.div1 {
+  background-color: lightgray;
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.div2 {
+  background-color: lightgray;
+  width: 70%;
+  height: 100%;
+}
+
+.div2 form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.class-page h2 {
+  width: 80%;
+  margin: 0;
+  text-align: left;
+  margin-left: 1%;
+  padding: 1%;
+}
+
+.class-list {
+  background-color: #06060621;
+  border: 1px solid black;
+  height: 60vh;
+  width: 90vw;
+  margin-left: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.classBox {
+  width: 25%;
+  height: 25%;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.classBox:hover {
+  background-color: rgba(255, 255, 255, 0.592);
+
+}
+
+.classBox h3 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.92);
+  border: 1px solid black;
+}
+
+.class0 {
+  background-color: burlywood;
+}
+.class1 {
+  background-color: lightpink;
+}
+.class2 {
+  background-color: olive;
+}
+.class3 {
+  background-color: yellow;
+}
+.class4 {
+  background-color: white;
+}
+.class5 {
+  background-color: rgba(0, 0, 255, 0.809);
+}
+.class6 {
+  background-color: lightblue;
+}
+.class7 {
+  background-color: plum;
+}
+.class8 {
+  background-color: teal;
+}
+.class9 {
+  background-color: orange;
+}
+.class10 {
+  background-color: purple;
+}
+.class11 {
+  background-color: crimson;
 }
